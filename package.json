@@ -1,0 +1,22 @@
+{
+  "name": "rimrafx",
+  "version": "1.0.0",
+  "description": "Rimraf CLI executable for use with npx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rimrafx": "index.js"
+  },
+  "keywords": [
+    "rimraf",
+    "npx",
+    "file-delete"
+  ],
+  "author": "Chris Stead",
+  "license": "MIT",
+  "dependencies": {
+    "rimraf": "^2.6.2"
+  }
+}
